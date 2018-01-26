@@ -35,3 +35,12 @@ $ gulp -T
 $ gulp sass
 $ gulp
 ```
+
+## 支援 Babel
+
+```bash
+# https://babeljs.io/docs/setup/#installation
+$ npm i gulp-babel babel-core babel-preset-env -D
+# 建立 .babelrc
+# 設定 gulpfile.js
+```
