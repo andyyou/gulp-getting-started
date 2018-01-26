@@ -44,3 +44,40 @@ $ npm i gulp-babel babel-core babel-preset-env -D
 # 建立 .babelrc
 # 設定 gulpfile.js
 ```
+
+## 基本 API 說明
+
+設定任務指令
+
+```js
+gulp.task('task_name', <Array|Function>)
+```
+
+設定預設任務指令
+
+```js
+gulp.task('default', ['sass', 'es', 'webserver', 'html:watch', 'sass:watch', 'es:watch'])
+```
+
+指定檔案來源
+
+```js
+gulp.src('./es/**/*.js')
+```
+
+串聯任務
+
+```js
+gulp.pipe()
+```
+
+輸出
+
+```js
+gulp.dest()
+```
+
+## 其他資源
+
+* [gulp API](https://github.com/gulpjs/gulp/blob/master/docs/API.md)
+* [plugins](https://gulpjs.com/plugins/)
