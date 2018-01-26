@@ -19,5 +19,19 @@ $ gulp -T
 
 ```bash
 $ npm i gulp-connect -D
-# 也可以使用 gulp-webserver
+# 設定 gulpfile.js (也可以使用 gulp-webserver)
+
+# 執行 default 任務
+$ gulp
+```
+
+## 支援 Sass 與 livereload
+
+```bash
+$ npm i gulp-sass -D
+# 設定 gulpfile.js
+
+$ gulp -T
+$ gulp sass
+$ gulp
 ```
