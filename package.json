@@ -9,6 +9,7 @@
   "author": "andyyou <andyyu0920@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.2.0"
   }
 }
